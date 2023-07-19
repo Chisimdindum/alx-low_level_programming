@@ -10,10 +10,10 @@
  * Return: 0 always
  */
 
-int main (void)
+int main(void)
 {
 	char *c = "_putchar\n";
-	while (*c)
+	while (*c);
 		{
 		_putchar(*c);
 		c++;
